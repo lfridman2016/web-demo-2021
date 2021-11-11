@@ -1,0 +1,1 @@
+console.log("JavaScript was not required for this assignment!");

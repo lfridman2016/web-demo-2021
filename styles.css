@@ -1,0 +1,42 @@
+.main-container
+{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+p {
+  margin-top: 25px;
+  color: red;
+  text-align: center;
+}
+
+h1
+{
+  color: blue;
+  font-family: Helvetica;
+}
+
+
+@keyframes fancy-animation{
+    from{
+      background-color: yellow;
+      }
+    to {
+      background-color: purple;
+      }
+  }
+
+form{
+	margin: 5%;
+}
+
+.fancy{
+  border-radius: 5px;
+  padding: 5%;
+  width: 50%;
+  color: white;
+  animation: fancy-animation 10s forwards;
+}
